@@ -1,19 +1,96 @@
 .App {
-  background: url(https://source.unsplash.com/3840x2400/?color);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* height: 100; */
-    background-color: #00000085;
-    background-blend-mode: overlay;
+    background-color: #000000;
     padding: 40px;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+.Card-design {
+  background-color: #000000;
+  border: 1px solid #FFB530;
+}
+
+.Card-design img{
+  margin: 10px auto !important;
+}
+
+
+.Card-design .card-title {
+  color: #FFB530;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-bottom: 1px dashed #FFB530;
+}
+
+.Card-design p {
+  color: #fff;
+  font-weight: 500;
+}
+
+.list-group-item{
+  background-color: transparent !important;
+}
+
+.list-group-item a{
+  font-size: 1.1rem;
+  padding: 10px;
+  color: #FFB530;
+}
+.list-group-item a:hover{
+  color: #fbff00;
+}
+
+.serviceBox{
+    color: #fff;
+    /* background: linear-gradient(to right,#39AB99,#4DB179); */
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 60px 40px;
+    border-radius: 120px 60px/60px 120px;
+    position: relative;
+    z-index: 1;
+}
+.serviceBox:before{
+    content: '';
+    background-color: #ffb7302d;
+    border-radius: inherit;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    top: 20px;
+    bottom: 20px;
+    z-index: -1;
+}
+.serviceBox .service-icon{
+    font-size: 40px;
+    line-height: 40px;
+    margin: 0 0 10px;
+}
+.serviceBox .title{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 25px;
+    text-transform: uppercase;
+    margin: 0 0 5px;
+}
+.serviceBox .description{
+    color: rgba(255,255,255,0.9);
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    margin: 0;
+}
+.serviceBox.orange{ border: 1px solid #FFB530; }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
