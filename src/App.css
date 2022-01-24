@@ -172,3 +172,27 @@
     margin-top: 2em;
   }
 }
+
+@media all and (max-width: 370px) {
+  .container {
+    padding: 0 !important;
+  }
+
+  .row > * {
+    padding: 0 !important;
+  }
+
+  .Card-design a {
+    text-decoration: none;
+    color: #ffb530;
+    font-size: 1rem;
+  }
+}
+
+@media all and (max-width: 325px) {
+  .Card-design a {
+    text-decoration: none;
+    color: #ffb530;
+    font-size: 0.9rem;
+  }
+}

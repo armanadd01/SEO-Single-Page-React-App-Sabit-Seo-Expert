@@ -57,7 +57,7 @@ function App() {
               </ListGroup>
               <Card.Body className='d-md-flex justify-content-center'>
                 <div className="d-md-flex flex-column justify-content-center">
-                <Card.Link href="" className='custom-block'><FontAwesomeIcon icon={faDownload} /> Download CV</Card.Link>
+                <Card.Link href="https://www.shabitahtashamsongi.com/cv/Shabit-Ahtasham-Songi-Work-Resume.pdf" className='custom-block'><FontAwesomeIcon icon={faDownload} /> Download CV</Card.Link>
                 <Card.Link href="mailto:songi.clients@gmail.com" className='custom-block'><FontAwesomeIcon icon={faMailBulk} /> Email Me</Card.Link>
                 </div>
                 
