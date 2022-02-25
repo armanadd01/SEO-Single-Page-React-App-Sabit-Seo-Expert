@@ -1,198 +1,204 @@
 .App {
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #000000;
-  padding: 40px;
-  text-align: center;
-  font-family: "Poppins", sans-serif;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000000;
+    padding: 40px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    height: 40vmin;
+    pointer-events: none;
 }
 
 .Card-design {
-  background-color: #000000;
-  border: 1px solid #ffb530;
+    background-color: #000000;
+    border: 1px solid #ffb530;
 }
 
 .Card-design img {
-  margin: 10px auto !important;
+    margin: 10px auto !important;
 }
 
 .Card-design .card-title {
-  color: #ffb530;
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  /* border-bottom: 1px dashed #FFB530; */
+    color: #ffb530;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* border-bottom: 1px dashed #FFB530; */
 }
+
 .Card-design .borders {
-  border-bottom: 1px dashed #ffb530;
-  font-size: 1rem;
-  font-weight: 400;
-  padding-bottom: 10px;
+    border-bottom: 1px dashed #ffb530;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom: 10px;
 }
+
 .Card-design p {
-  color: #fff;
-  font-weight: 500;
-  font-size: 0.8rem;
-  text-align: justify;
+    color: #fff;
+    font-weight: 500;
+    font-size: 0.8rem;
+    text-align: justify;
 }
+
 .card-title p {
-  color: #ffb530;
-  text-align: center;
+    color: #ffb530;
+    text-align: center;
 }
+
 .list-group-item {
-  background-color: transparent !important;
+    background-color: transparent !important;
 }
 
 .list-group-item a {
-  font-size: 1.1rem;
-  padding: 10px;
-  color: #ffb530;
+    font-size: 1.1rem;
+    padding: 10px;
+    color: #ffb530;
 }
+
 .list-group-item a:hover {
-  color: #fbff00;
+    color: #fbff00;
 }
 
 .Card-design a {
-  text-decoration: none;
-  color: #ffb530;
-  font-size: 1.2rem;
+    text-decoration: none;
+    color: #ffb530;
+    font-size: 1.2rem;
 }
+
 .Card-design a:hover {
-  color: #fbff00;
+    color: #fbff00;
 }
 
 .Card-design a svg {
-  margin: 0 5px;
+    margin: 0 5px;
 }
 
 .serviceBox {
-  color: #fff;
-  /* background: linear-gradient(to right,#39AB99,#4DB179); */
-  font-family: "Poppins", sans-serif;
-  text-align: center;
-  padding: 75px 60px;
-  border-radius: 120px 60px/60px 120px;
-  position: relative;
-  z-index: 1;
-  width: 15rem;
-  height: 14rem;
+    color: #fff;
+    /* background: linear-gradient(to right,#39AB99,#4DB179); */
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    padding: 75px 60px;
+    border-radius: 120px 60px/60px 120px;
+    position: relative;
+    z-index: 1;
+    width: 15rem;
+    height: 14rem;
 }
+
 .serviceBox:before {
-  content: "";
-  background-color: #ffb7302d;
-  border-radius: inherit;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  position: absolute;
-  left: 20px;
-  right: 20px;
-  top: 20px;
-  bottom: 20px;
-  z-index: -1;
+    content: "";
+    background-color: #ffb7302d;
+    border-radius: inherit;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    top: 20px;
+    bottom: 20px;
+    z-index: -1;
 }
+
 .serviceBox .service-icon {
-  font-size: 40px;
-  line-height: 40px;
-  margin: 0 0 10px;
+    font-size: 40px;
+    line-height: 40px;
+    margin: 0 0 10px;
 }
+
 .serviceBox .title {
-  font-size: 1.2em;
-  font-weight: 500;
-  line-height: 25px;
-  text-transform: uppercase;
-  margin: 0 0 5px;
+    font-size: 1.2em;
+    font-weight: 500;
+    line-height: 25px;
+    text-transform: uppercase;
+    margin: 0 0 5px;
 }
+
 .serviceBox .description {
-  color: rgba(255, 255, 255, 0.9);
-  font-size: 12px;
-  line-height: 20px;
-  letter-spacing: 0.5px;
-  margin: 0;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    margin: 0;
 }
+
 .serviceBox.orange {
-  border: 1px solid #ffb530;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
+    border: 1px solid #ffb530;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .main-services {
-  position: relative;
+    position: relative;
 }
 
 .main-services .Service-Box-two {
-  position: absolute;
-  top: 19em;
-  left: 9em;
+    position: absolute;
+    top: 19em;
+    left: 9em;
 }
 
 .main-services .heading-title {
-  margin-bottom: 50px;
-  color: #ffb530;
+    margin-bottom: 50px;
+    color: #ffb530;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
 }
 
-@media all and (max-width: 992px) {
-}
+@media all and (max-width: 992px) {}
+
 @media all and (max-width: 768px) {
-  .Card-design {
-    width: 100% !important;
-  }
-  .card-title h1 {
-    font-size: 1em;
-  }
-  .card-title h6 {
-    font-size: 0.7em;
-  }
-  .main-services .Service-Box-two {
-    position: static;
-  }
-
-  .serviceBox {
-    margin: 20px auto;
-  }
-
-  .custom-block {
-    display: block;
-    margin: 5px auto;
-  }
-
-  .main-services {
-    margin-top: 2em;
-  }
+    .Card-design {
+        width: 100% !important;
+    }
+    .card-title h1 {
+        font-size: 1em;
+    }
+    .card-title h6 {
+        font-size: 0.7em;
+    }
+    .main-services .Service-Box-two {
+        position: static;
+    }
+    .serviceBox {
+        margin: 20px auto;
+    }
+    .custom-block {
+        display: block;
+        margin: 5px auto;
+    }
+    .main-services {
+        margin-top: 2em;
+    }
 }
 
 @media all and (max-width: 370px) {
-  .container {
-    padding: 0 !important;
-  }
-
-  .row > * {
-    padding: 0 !important;
-  }
-
-  .Card-design a {
-    text-decoration: none;
-    color: #ffb530;
-    font-size: 1rem;
-  }
+    .container {
+        padding: 0 !important;
+    }
+    .row>* {
+        padding: 0 !important;
+    }
+    .Card-design a {
+        text-decoration: none;
+        color: #ffb530;
+        font-size: 1rem;
+    }
 }
 
 @media all and (max-width: 325px) {
-  .Card-design a {
-    text-decoration: none;
-    color: #ffb530;
-    font-size: 0.9rem;
-  }
+    .Card-design a {
+        text-decoration: none;
+        color: #ffb530;
+        font-size: 0.9rem;
+    }
 }
