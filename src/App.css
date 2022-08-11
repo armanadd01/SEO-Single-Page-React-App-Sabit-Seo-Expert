@@ -148,6 +148,16 @@
     color: #ffb530;
 }
 
+.bg-golden {
+    background-color: #ffb530;
+}
+
+
+.about-text {
+    font-size: 0.8em;
+    color: #fff;
+}
+
 @media (prefers-reduced-motion: no-preference) {
     .App-logo {
         animation: App-logo-spin infinite 20s linear;
@@ -160,22 +170,28 @@
     .Card-design {
         width: 100% !important;
     }
+
     .card-title h1 {
         font-size: 1em;
     }
+
     .card-title h6 {
         font-size: 0.7em;
     }
+
     .main-services .Service-Box-two {
         position: static;
     }
+
     .serviceBox {
         margin: 20px auto;
     }
+
     .custom-block {
         display: block;
         margin: 5px auto;
     }
+
     .main-services {
         margin-top: 2em;
     }
@@ -185,9 +201,11 @@
     .container {
         padding: 0 !important;
     }
+
     .row>* {
         padding: 0 !important;
     }
+
     .Card-design a {
         text-decoration: none;
         color: #ffb530;
