@@ -148,13 +148,17 @@
     color: #ffb530;
 }
 
-.bg-golden {
+.btn-golden {
     background-color: #ffb530;
+    font-size: 1.3rem;
+    border: none;
+    color: #000000;
+    font-weight: 600;
 }
 
 
 .about-text {
-    font-size: 0.8em;
+    font-size: 1.2em;
     color: #fff;
 }
 

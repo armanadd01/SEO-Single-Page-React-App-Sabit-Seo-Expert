@@ -24,7 +24,7 @@ const About = () => {
                             Chris owes all of this to his amazing clients, customers, and staff who have made it possible for Chris to use his business to pursue his true passion… helping people and making the world a better place.
                         </p>
 
-                        <Button className='bg-golden'>Apply For A Consultation</Button>
+                        <Button className='btn-golden'>Apply For A Consultation</Button>
                         <img src="" alt="" />
                     </Col>
                 </Row>

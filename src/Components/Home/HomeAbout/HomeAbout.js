@@ -1,5 +1,10 @@
 import React from 'react';
 import { Col, Card, ListGroup, ListGroupItem } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCopyright, faDownload, faLink, faMailBulk } from '@fortawesome/free-solid-svg-icons';
+import { faDev, faFacebook, faInstagram, faLinkedin, faPinterest, faTwitter, faWhatsapp, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import image from '../../../Images/Shabit Ahtasham Songi.png';
+import Typical from "react-typical";
 
 const HomeAbout = () => {
     return (
