@@ -9,13 +9,13 @@ const About = () => {
             <Container className='mb-5'>
                 <div
                     className='heading-title text-center mb-5'>
-                    <h1 className=' text-golden text-big'>WHO IS <br /> SEO Protected</h1>
+                    <h1 className=' text-golden text-big'>WHO IS <br /> SHABIT AHTASHAM SONGI</h1>
 
                 </div>
                 <Row className='align-items-center mb-5'>
                     <Col md={6} xs={12}>
 
-                        <img src={sabit} alt="" />
+                        <img className='img-fluid' src={sabit} alt="" />
                     </Col>
                     <Col md={6} xs={12} className="text-start">
 

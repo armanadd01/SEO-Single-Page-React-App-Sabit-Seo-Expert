@@ -4,13 +4,14 @@ import About from './Components/About/About';
 import Home from './Components/Home/Home';
 import Footer from './Components/Shared/Footer/Footer';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Header from './Components/Shared/Header/Header';
 
 function App() {
   return (
     <div className="App">
 
       <Router className="d-flex">
-
+        <Header></Header>
         <Switch>
           <Route exact path="/">
             <Home></Home>
