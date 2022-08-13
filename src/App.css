@@ -13,6 +13,15 @@
     pointer-events: none;
 }
 
+.text-golden {
+    color: #ffb530;
+}
+
+.text-big {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
 .Card-design {
     background-color: #000000;
     border: 1px solid #ffb530;
@@ -154,13 +163,71 @@
     border: none;
     color: #000000;
     font-weight: 600;
+
 }
 
 
 .about-text {
-    font-size: 1.2em;
+    font-size: 1em;
     color: #fff;
 }
+
+.custom-experiance {
+    border: 8px solid #ffb530;
+    width: 170px;
+    height: 170px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-experiance span {
+    font-size: 6rem;
+    font-weight: 600;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.dotted-bg {
+    background-image: radial-gradient(#212121 20%, transparent 20%), radial-gradient(#212121 20%, transparent 20%);
+    background-color: transparent;
+    background-position: 0px 0, 50px 50px;
+    background-size: 25px 24px;
+    margin-left: -80px;
+    z-index: 1;
+}
+
+.experiance-text {
+    color: #fff;
+    font-size: 2em;
+    padding: 0px 0px;
+    padding-left: 45px;
+    font-weight: 600;
+
+}
+
+.slick-slide img {
+    width: 100% !important;
+    margin: 10px !important;
+    padding: 10px !important;
+}
+
+/* 
+*
+*
+*
+*
+*
+Responsive code 
+*
+*
+*
+*
+*
+*
+*/
+
 
 @media (prefers-reduced-motion: no-preference) {
     .App-logo {
@@ -200,6 +267,8 @@
         margin-top: 2em;
     }
 }
+
+
 
 @media all and (max-width: 370px) {
     .container {
