@@ -31,17 +31,6 @@ const HomeCompany = () => {
                             </a>
                         </div>
                     </Col>
-                    <Col md={12} sm={12} className='d-sm-flex justify-content-center'>
-                        <div className="Service-Box-three">
-                            <a href="#"
-                                rel="noopener noreferrer"
-                                className="text-decoration-none">
-                                <div className="serviceBox orange">
-                                    <h3 className="title">Marketer's Panel</h3>
-                                </div>
-                            </a>
-                        </div>
-                    </Col>
                 </Row>
             </div>
         </Col>

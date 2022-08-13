@@ -1,5 +1,7 @@
 import React from 'react';
 import { Button, Col, Container, Row } from 'react-bootstrap';
+import bannerImage from '../../../Images/banner/sabit-banner.png';
+import Typical from "react-typical";
 
 const Banner = () => {
     return (
@@ -8,13 +10,28 @@ const Banner = () => {
                 <Row className='align-items-center'>
                     <Col md={6} className="text-start">
                         <h1 className='text-golden'>Shabit Ahtasham Songi</h1>
-                        <h2 className="text-golden">Internet Entrepreneur, SEO Expert, SEO Consultant</h2>
-                        <p className="text-light">Join The Satisfied Clients Today that have grown their businesses by working with Shabit Ahtasham Songi.</p>
+
+                        <Typical
+                            steps={[
+                                "Internet Entrepreneur",
+                                5000,
+                                "SEO Expert",
+                                5000,
+                                "SEO Consultant",
+                                5000,
+                            ]}
+                            loop={Infinity}
+                            wrapper="h2"
+                            className="text-golden"
+                        />
+
+                        <p className="text-light about-text">Join The Satisfied Clients Today that have grown their businesses by working with Shabit Ahtasham Songi.</p>
 
                         <Button className='btn-golden mb-5'>Apply For A Consultation</Button>
                     </Col>
                     <Col md={6}>
-                        <h1 className='text-light'>Image</h1>
+
+                        <img src={bannerImage} alt="" style={{ height: '88vh' }} />
                     </Col>
                 </Row>
 
