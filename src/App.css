@@ -2,7 +2,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #000000;
+    background-color: #2C3333;
     padding: 0px;
     text-align: center;
     font-family: "Poppins", sans-serif;
@@ -27,7 +27,13 @@
 }
 
 .header-border {
-    box-shadow: rgba(231, 231, 231, 0.1) 0px 4px 12px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: #2C3333;
+    z-index: 99999;
+}
+
+.shadow {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .background {
@@ -36,19 +42,20 @@
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-blend-mode: hard-light;
-    background-color: #000000bd;
+    box-shadow: rgba(231, 231, 231, 0.1) 0px 15px 12px;
 }
 
 .seo-guru-bg {
-    background: rgb(0, 0, 0);
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(129, 126, 121, 0.5) 50%, rgba(0, 0, 0, 1) 100%);
+    /* background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(129, 126, 121, 0.5) 50%, rgba(0, 0, 0, 1) 100%); */
     min-height: 100vh;
 }
 
 .Card-design {
-    background-color: #000000;
+    background-color: #2C3333;
     border: 1px solid #ffb530;
+    box-shadow: rgba(194, 203, 211, 0.3) 0px 1px 2px 0px, rgba(219, 226, 231, 0.15) 0px 2px 6px 2px;
+
 }
 
 .Card-design img {

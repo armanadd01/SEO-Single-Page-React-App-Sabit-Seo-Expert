@@ -1,13 +1,13 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import logoImg from '../../../Images/logo.png'
 
 const Header = () => {
     return (
         <>
             {/* Navber */}
-            <div className="w-100 header-border" style={{ paddingBottom: '1em', marginBottom: '1em' }}>
+            <div className="w-100 header-border" style={{ paddingBottom: '1em', marginBottom: '1em', position: 'fixed', top: 0, left: 0 }}>
                 <Container className="container-fluid " >
                     {/* Site logo */}
 
@@ -37,6 +37,9 @@ const Header = () => {
                                         </li>
                                         <li className="nav-item p-2">
                                             <NavLink activeClassName="border-bottom border-light border-5 rounded text-hover bg-golden" className="nav-link fs-6 border-5 border-transparent fw-bold text-golden p-3 rounded" to="/about">About</NavLink>
+                                        </li>
+                                        <li className="nav-item p-2">
+                                            <Link activeClassName="border-bottom border-light border-5 rounded text-hover bg-golden" className="nav-link fs-6 border-5 border-transparent fw-bold text-golden p-3 rounded" to="https://www.seoguru.com.bd/services" target="_blank">Services</Link>
                                         </li>
 
                                     </ul>
