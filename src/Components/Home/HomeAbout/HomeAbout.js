@@ -8,7 +8,7 @@ import Typical from "react-typical";
 
 const HomeAbout = () => {
     return (
-        <Col xl={6} lg={12} md={12} sm={12}>
+        <Col xl={6} lg={6} md={6} sm={12}>
             <Card style={{ width: '90%' }} className='Card-design'>
                 {/* <Card.Img variant="top" style={{
                     height: '150px',

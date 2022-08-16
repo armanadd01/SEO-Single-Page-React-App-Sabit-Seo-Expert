@@ -5,11 +5,11 @@ import Typical from "react-typical";
 
 const SeoGuru = () => {
     return (
-        <Row className='align-items-center' style={{ height: '100vh' }}>
-            <Col md={6}>
+        <Row className='align-items-center home-height' >
+            <Col md={6} sm={12}>
                 <img src={seoBanner} alt="" className='img-fluid w-75' />
             </Col>
-            <Col md={6}>
+            <Col md={6} sm={12}>
 
                 <Card style={{ width: '100%' }} className='Card-design'>
                     {/* <Card.Img variant="top" style={{

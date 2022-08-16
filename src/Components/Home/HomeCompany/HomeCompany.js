@@ -3,11 +3,11 @@ import { Row, Col } from 'react-bootstrap';
 
 const HomeCompany = () => {
     return (
-        <Col xl={6} lg={12} md={12} sm={12}>
+        <Col xl={6} lg={6} md={6} sm={12}>
             <div className="main-services">
                 <Row>
                     <h3 className='heading-title'>Registered Online Business</h3>
-                    <Col md={6} sm={12} className='d-sm-flex justify-content-center'>
+                    <Col md={6} sm={6} className='d-sm-flex justify-content-center'>
                         <div className="Service-Box-One">
                             <a href="https://www.seoguru.com.bd/"
                                 rel="noopener noreferrer"
@@ -19,7 +19,7 @@ const HomeCompany = () => {
                             </a>
                         </div>
                     </Col>
-                    <Col md={6} sm={12} className='d-sm-flex justify-content-center'>
+                    <Col md={6} sm={6} className='d-sm-flex justify-content-center'>
                         <div className="Service-Box-twos">
                             <a href="#"
                                 rel="noopener noreferrer"

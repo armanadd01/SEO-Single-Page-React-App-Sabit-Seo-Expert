@@ -6,7 +6,7 @@ import Typical from "react-typical";
 const SeoAcademy = () => {
     return (
         <Row className='align-items-center'>
-            <Col md={6}>
+            <Col md={6} sm={12}>
                 <Card style={{ width: '100%' }} className='Card-design'>
                     {/* <Card.Img variant="top" style={{
                     height: '150px',
@@ -41,7 +41,7 @@ const SeoAcademy = () => {
                     </Card.Body>
                 </Card>
             </Col>
-            <Col md={6}>
+            <Col md={6} sm={12}>
                 <img src={Academy} alt="" className='img-fluid' />
             </Col>
         </Row>

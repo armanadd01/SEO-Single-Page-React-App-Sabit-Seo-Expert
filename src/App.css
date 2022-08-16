@@ -248,6 +248,10 @@
     padding: 10px !important;
 }
 
+.home-height {
+    height: 100vh;
+}
+
 /* 
 *
 *
@@ -273,6 +277,25 @@ Responsive code
 @media all and (max-width: 992px) {}
 
 @media all and (max-width: 768px) {
+    .phone {
+        margin-top: 5em !important;
+        padding: 5em 0em !important;
+        height: 100% !important;
+    }
+
+    .phone img {
+        max-width: 75%;
+        max-height: 75% !important;
+    }
+
+    .phone .container {
+        height: 100% !important;
+    }
+
+    .home-height {
+        height: 100%;
+    }
+
     .Card-design {
         width: 100% !important;
     }

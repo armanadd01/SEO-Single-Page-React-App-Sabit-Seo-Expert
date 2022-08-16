@@ -13,11 +13,11 @@ import SeoGuru from './SeoGuru/SeoGuru';
 
 const Home = () => {
     return (
-        <div className='mt-5 pt-5'>
+        <div className='mt-5 pt-5 phone'>
             <Banner></Banner>
             <div className="shadow">
-                <Container className='mt-5 pt-5 h-100' >
-                    <Row style={{ height: '100vh' }} className='align-items-center'>
+                <Container className='mt-5 pt-5' >
+                    <Row className='align-items-center home-height'>
 
                         <HomeAbout></HomeAbout>
                         <HomeCompany></HomeCompany>
@@ -28,13 +28,13 @@ const Home = () => {
 
 
             <div className="seo-guru-bg shadow">
-                <Container style={{ marginTop: '3em', marginBottom: '4em', height: '100vh' }}>
+                <Container style={{ marginTop: '3em', marginBottom: '4em' }} className='home-height'>
 
                     <SeoGuru></SeoGuru>
                 </Container>
             </div>
             <div className="shadow">
-                <Container style={{ marginTop: '3em', marginBottom: '4em', height: '100vh' }} className='d-flex align-items-center'>
+                <Container style={{ marginTop: '3em', marginBottom: '4em' }} className='d-flex align-items-center home-height'>
 
                     <SeoAcademy></SeoAcademy>
                 </Container>

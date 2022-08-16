@@ -5,10 +5,10 @@ import Typical from "react-typical";
 
 const Banner = () => {
     return (
-        <div className="background pb-5">
+        <div className="background pb-5 mb-5">
             <Container>
                 <Row className='align-items-center'>
-                    <Col md={6} className="text-start">
+                    <Col md={6} sm={12} className="text-start">
                         <h1 className='text-golden'>Shabit Ahtasham Songi</h1>
 
                         <Typical
@@ -29,9 +29,9 @@ const Banner = () => {
 
                         <Button className='btn-golden mb-5'>Apply For A Consultation</Button>
                     </Col>
-                    <Col md={6}>
+                    <Col md={6} sm={12}>
 
-                        <img src={bannerImage} alt="" style={{ height: '88vh' }} />
+                        <img src={bannerImage} alt="" />
                     </Col>
                 </Row>
 
