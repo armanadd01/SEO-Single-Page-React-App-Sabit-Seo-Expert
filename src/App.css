@@ -32,6 +32,8 @@
     z-index: 99999;
 }
 
+
+
 .shadow {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
@@ -252,6 +254,13 @@
     height: 100vh;
 }
 
+.about-page {
+    margin-top: 4em;
+    padding-top: 1em;
+}
+
+
+
 /* 
 *
 *
@@ -277,15 +286,21 @@ Responsive code
 @media all and (max-width: 992px) {}
 
 @media all and (max-width: 768px) {
+    .header-border img {
+        width: 100% !important;
+    }
+
     .phone {
         margin-top: 5em !important;
         padding: 5em 0em !important;
         height: 100% !important;
     }
 
-    .phone img {
+    .phone img,
+    .about-page img {
         max-width: 75%;
         max-height: 75% !important;
+        padding: 0em 1em;
     }
 
     .phone .container {

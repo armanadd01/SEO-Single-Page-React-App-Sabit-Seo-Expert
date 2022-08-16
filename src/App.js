@@ -22,6 +22,9 @@ function App() {
           <Route path="/about">
             <About></About>
           </Route>
+          <Route path="/contact">
+            <About></About>
+          </Route>
         </Switch>
         <Footer></Footer>
       </Router>

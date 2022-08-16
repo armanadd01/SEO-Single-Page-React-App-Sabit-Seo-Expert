@@ -14,7 +14,7 @@ const Header = () => {
                     <div className="navbar navbar-expand-md navbar-light w-100 m-0 p-0" >
                         <div className="col-md-7 col-sm-8 m-0 p-0 ">
                             <div className="navbar-brand m-0 p-0 site-logo me-sm-5" >
-                                <NavLink activeClassName=" text-light" className="nav-link fs-6 text-start" to="/home">
+                                <NavLink activeClassName=" text-light" className="nav-link fs-6 text-start" to="/">
                                     <img className="w-50" src={logoImg} alt="" />
                                     {/* <h2 className='text-light text-start'>Shabit Ahtesham Songhi</h2> */}
                                 </NavLink>
@@ -33,13 +33,16 @@ const Header = () => {
                                 <div className="col-md-12">
                                     <ul className="navbar-nav text-end justify-content-end">
                                         <li className="nav-item p-2">
-                                            <NavLink activeClassName="border-bottom border-light border-5 rounded text-hover bg-golden" className="nav-link fs-6 border-5 border-transparent fw-bold text-golden p-3 rounded " to="/home">Home</NavLink>
+                                            <NavLink activeClassName="border-bottom border-light border-5 rounded text-hover bg-golden" className="nav-link fs-6 border-5 border-transparent fw-bold text-golden p-3 rounded " to="/">Home</NavLink>
                                         </li>
                                         <li className="nav-item p-2">
                                             <NavLink activeClassName="border-bottom border-light border-5 rounded text-hover bg-golden" className="nav-link fs-6 border-5 border-transparent fw-bold text-golden p-3 rounded" to="/about">About</NavLink>
                                         </li>
                                         <li className="nav-item p-2">
-                                            <Link activeClassName="border-bottom border-light border-5 rounded text-hover bg-golden" className="nav-link fs-6 border-5 border-transparent fw-bold text-golden p-3 rounded" to="https://www.seoguru.com.bd/services" target="_blank">Services</Link>
+                                            <a activeClassName="border-bottom border-light border-5 rounded text-hover bg-golden" className="nav-link fs-6 border-5 border-transparent fw-bold text-golden p-3 rounded" href="https://www.seoguru.com.bd/services" target="_blank">Services</a>
+                                        </li>
+                                        <li className="nav-item p-2">
+                                            <NavLink activeClassName="border-bottom border-light border-5 rounded text-hover bg-golden" className="nav-link fs-6 border-5 border-transparent fw-bold text-golden p-3 rounded" to="/contact">contact</NavLink>
                                         </li>
 
                                     </ul>

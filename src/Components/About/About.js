@@ -5,8 +5,8 @@ import AboutSlider from './AboutSlider/AboutSlider';
 
 const About = () => {
     return (
-        <div>
-            <Container className='mb-5'>
+        <div className='about-page'>
+            <Container className='mb-5 mt-5 pt-5 '>
                 <div
                     className='heading-title text-center mb-5'>
                     <h1 className=' text-golden text-big'>WHO IS <br /> SHABIT AHTASHAM SONGI</h1>
