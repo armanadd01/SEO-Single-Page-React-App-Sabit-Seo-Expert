@@ -203,6 +203,10 @@
     background-color: #ffb530;
 }
 
+.border-golden {
+    border: 1px solid #ffb530;
+
+}
 
 .about-text {
     font-size: 1em;

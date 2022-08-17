@@ -5,6 +5,8 @@ import Home from './Components/Home/Home';
 import Footer from './Components/Shared/Footer/Footer';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from './Components/Shared/Header/Header';
+import PageNotFound from './Components/Shared/PageNotFound/PageNotFound';
+import Contacts from './Components/Contacts/Contacts';
 
 function App() {
   return (
@@ -23,7 +25,10 @@ function App() {
             <About></About>
           </Route>
           <Route path="/contact">
-            <About></About>
+            <Contacts></Contacts>
+          </Route>
+          <Route exact path="*">
+            <PageNotFound></PageNotFound>
           </Route>
         </Switch>
         <Footer></Footer>
