@@ -347,26 +347,58 @@ Responsive code
 
 
 
-@media all and (max-width: 370px) {
-    .container {
-        padding: 0 !important;
-    }
+@media all and (max-width: 570px) {
 
-    .row>* {
-        padding: 0 !important;
-    }
 
     .Card-design a {
         text-decoration: none;
         color: #ffb530;
         font-size: 1rem;
     }
+
+    .custom-experiance {
+        border: 6px solid #ffb530;
+        width: 90px;
+        height: 90px;
+    }
+
+    .custom-experiance span {
+        font-size: 4rem;
+    }
+
+    .dotted-bg {
+        margin-left: 0px;
+        width: 70%;
+    }
+
+    .experience-year {
+        width: 10%;
+        margin: auto;
+    }
+
+    .gallery-section {
+        display: content;
+    }
+
+    .gallery-section .slider-gallery {
+        height: 12em;
+    }
+
 }
+
 
 @media all and (max-width: 325px) {
     .Card-design a {
         text-decoration: none;
         color: #ffb530;
         font-size: 0.9rem;
+    }
+
+    container {
+        padding: 0 !important;
+    }
+
+    .row>* {
+        padding: 0 !important;
     }
 }

@@ -29,17 +29,19 @@ const About = () => {
                             Shabit Ahtasham Songi Doesnt Just Rank Websites, He Grows Businesses Too. He is a self-depended guy who found success online one step at a time through Long Hours, Dedication, and a Good Sense of Humor along the way
                         </p>
 
-                        <Button className='btn-golden mb-5'>Apply For A Consultation</Button>
+                        <Button className='btn-golden mb-5'>
+                            <a href="/contact">Apply For A Consultation</a>
+                        </Button>
 
                         <Row className='align-items-center'>
-                            <Col md={4} style={{
+                            <Col md={4} sm={2} style={{
                                 zIndex: 99
-                            }}>
+                            }} className="experience-year">
                                 <p className='custom-experiance'>
                                     <span>7</span>
                                 </p>
                             </Col>
-                            <Col md={8} className="dotted-bg">
+                            <Col md={8} sm={4} className="dotted-bg">
 
                                 <p className='experiance-text'>Years</p>
                                 <p className='experiance-text'>Experience</p>
@@ -48,12 +50,14 @@ const About = () => {
                         </Row>
                     </Col>
                 </Row>
-                <Row className='align-items-center mt-5'>
-                    <Col md={6}>
+                <Row className='align-items-center mt-5 gallery-section'>
+                    <Col md={6} sm={12} className='slider-gallery'>
                         <AboutSlider></AboutSlider>
                     </Col>
-                    <Col md={6}>
-                        <Button className='btn-golden mb-5'>Apply For A Consultation</Button>
+                    <Col md={6} sm={12} className='gallery-button'>
+                        <Button className='btn-golden mb-5'>
+                            <a href="/contact">Apply For A Consultation</a>
+                        </Button>
                     </Col>
                 </Row>
             </Container>

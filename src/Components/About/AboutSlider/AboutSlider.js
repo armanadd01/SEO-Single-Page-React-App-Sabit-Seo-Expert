@@ -23,28 +23,28 @@ const AboutSlider = () => {
 
     }
     return (
-        <div>
 
-            <Slider {...settings}>
-                <div>
 
-                    <img src={slider01} alt="" />
-                </div>
-                <div>
+        <Slider {...settings}>
+            <div>
 
-                    <img src={slider02} alt="" />
-                </div>
-                <div>
+                <img src={slider01} alt="" />
+            </div>
+            <div>
 
-                    <img src={slider03} alt="" />
-                </div>
-                <div>
+                <img src={slider02} alt="" />
+            </div>
+            <div>
 
-                    <img src={slider04} alt="" />
-                </div>
+                <img src={slider03} alt="" />
+            </div>
+            <div>
 
-            </Slider>
-        </div>
+                <img src={slider04} alt="" />
+            </div>
+
+        </Slider>
+
     );
 };
 
