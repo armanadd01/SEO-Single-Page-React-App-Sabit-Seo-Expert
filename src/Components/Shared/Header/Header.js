@@ -33,7 +33,7 @@ const Header = () => {
                                 <div className="col-md-12">
                                     <ul className="navbar-nav text-end justify-content-end">
                                         <li className="nav-item p-2">
-                                            <NavLink activeClassName="border-bottom border-light border-5 rounded text-hover bg-golden" className="nav-link fs-6 border-5 border-transparent fw-bold text-golden p-3 rounded " to="/">Home</NavLink>
+                                            <NavLink activeClassName="border-bottom border-light border-5 rounded text-hover bg-golden" className="nav-link fs-6 border-5 border-transparent fw-bold text-golden p-3 rounded " to="/home">Home</NavLink>
                                         </li>
                                         <li className="nav-item p-2">
                                             <NavLink activeClassName="border-bottom border-light border-5 rounded text-hover bg-golden" className="nav-link fs-6 border-5 border-transparent fw-bold text-golden p-3 rounded" to="/about">About</NavLink>

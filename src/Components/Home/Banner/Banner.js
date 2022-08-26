@@ -2,6 +2,7 @@ import React from 'react';
 import { Button, Col, Container, Row } from 'react-bootstrap';
 import bannerImage from '../../../Images/banner/sabit-banner.png';
 import Typical from "react-typical";
+import { NavLink } from 'react-router-dom';
 
 const Banner = () => {
     return (
@@ -27,7 +28,14 @@ const Banner = () => {
 
                         <p className="text-light about-text">Join The Satisfied Clients Today that have grown their businesses by working with Shabit Ahtasham Songi.</p>
 
-                        <Button className='btn-golden mb-5'>Apply For A Consultation</Button>
+                        <Button className='btn-golden mb-5'>
+                            <NavLink
+                                className="nav-link  text-light p-3 "
+                                to="/contact">
+                                Free SEO Consulting
+                            </NavLink>
+
+                        </Button>
                     </Col>
                     <Col md={6} sm={12}>
 

@@ -3,6 +3,7 @@ import React, { useRef } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { useForm } from 'react-hook-form';
 import emailjs from '@emailjs/browser';
+import ContactImage from '../../Images/contact.png'
 
 const Contacts = () => {
     const { register, handleSubmit, reset } = useForm();
@@ -10,7 +11,7 @@ const Contacts = () => {
     //handle plans from
     const onSubmit = data => {
 
-        axios.post('http://localhost:5000/contacts', data)
+        axios.post('https://rocky-coast-56612.herokuapp.com/contacts', data)
             .then(res => {
                 if (res.data.insertedId) {
 
@@ -31,23 +32,27 @@ const Contacts = () => {
         <>
             <Container className=" mt-5 pt-5 mb-3 pb-3">
                 <Row className=" align-items-center mt-5 pt-5 mb-3 pb-3" >
-                    <Col md={6} className=" rounded shadow p-5 border-golden">
+                    <Col lg={6} md={12} className=" rounded shadow p-5 border-golden">
                         <div className="form-section text-center test-light">
-                            <h1 className="text-light">Submit Your Query </h1>
+                            <h1 className="text-golden">Submit Your Query </h1>
                             <div className="form">
                                 <form ref={form} className="p-2" onSubmit={handleSubmit(onSubmit)}>
-                                    <input className="form-control m-3" placeholder="Enter Your Name" type="text"  {...register("name", { required: true, maxLength: 40 })} />
-                                    <input className="form-control m-3" placeholder="Enter Email" type="text"  {...register("email", { required: true })} />
-                                    <input className="form-control m-3" placeholder="Enter Phone Number" type="text"  {...register("phone", { required: true })} />
-                                    <input className="form-control m-3" placeholder="Enter website" type="text"  {...register("website")} />
-                                    <input className="form-control m-3" placeholder="Enter Company Name" type="text"  {...register("company")} />
-                                    <input className="form-control m-3" placeholder="Enter Location" type="text"  {...register("location")} />
-                                    <textarea className="form-control m-3" placeholder="Enter Your Text"   {...register("text")} ></textarea>
-                                    <input className="btn btn-outline-light" type="submit" value="Send" />
+                                    <input className="form-control frm-ctrl-custom mb-3 text-golden text-capitalize" placeholder="Enter Your Name" type="text"  {...register("name", { required: true, maxLength: 40 })} />
+                                    <input className="form-control frm-ctrl-custom mb-3 text-golden" placeholder="Enter Email" type="text"  {...register("email", { required: true })} />
+                                    <input className="form-control frm-ctrl-custom mb-3 text-golden" placeholder="Enter Phone Number" type="text"  {...register("phone", { required: true })} />
+                                    <input className="form-control frm-ctrl-custom mb-3 text-golden" placeholder="Enter website" type="text"  {...register("website")} />
+                                    <input className="form-control frm-ctrl-custom mb-3 text-golden" placeholder="Enter Company Name" type="text"  {...register("company")} />
+                                    <input className="form-control frm-ctrl-custom mb-3 text-golden" placeholder="Enter Location" type="text"  {...register("location")} />
+                                    <textarea className="form-control frm-ctrl-custom mb-3 text-golden" placeholder="Enter Your Text"   {...register("text")} ></textarea>
+                                    <input className="btn btn-outline-golden w-100" type="submit" value="Send" />
 
                                 </form>
                             </div>
                         </div>
+                    </Col>
+                    <Col lg={6} md={12} className='text-golden'>
+                        <h2>Contact Me Or Submit Your Query</h2>
+                        <img src={ContactImage} alt="" className='img-fluid' />
                     </Col>
                 </Row>
             </Container>
