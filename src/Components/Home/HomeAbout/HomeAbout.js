@@ -10,15 +10,9 @@ const HomeAbout = () => {
     return (
         <Col xl={6} lg={6} md={6} sm={12}>
             <Card style={{ width: '90%' }} className='Card-design'>
-                {/* <Card.Img variant="top" style={{
-                    height: '150px',
-                    width: '150px',
-                    borderRadius: '50%',
-                    border: '1px solid #FFB530',
-                    margin: '20px auto !important',
-                }} src={image} alt="Shabit Ahtasham Songi" /> */}
+
                 <Card.Body>
-                    <Card.Title > <h1> Shabit Ahtasham Songi </h1> </Card.Title>
+                    <Card.Title > <h3> Shabit Ahtasham Songi </h3> </Card.Title>
                     <h2 style={{ display: 'none' }}>Shabit Ahtasham Songi The Internet Entrepreneur</h2>
                     <Card.Title className='borders'>
                         <Typical
@@ -28,7 +22,7 @@ const HomeAbout = () => {
 
                             ]}
                             loop={Infinity}
-                            wrapper="h6"
+                            wrapper="h4"
                         />
 
                     </Card.Title>

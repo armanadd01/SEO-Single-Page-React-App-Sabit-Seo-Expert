@@ -1,11 +1,19 @@
 import React from 'react';
 import { Button, Col, Container, Row } from 'react-bootstrap';
+import { Helmet } from 'react-helmet';
 import sabit from '../../Images/sabit.png'
 import AboutSlider from './AboutSlider/AboutSlider';
 
 const About = () => {
     return (
         <div className='about-page'>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Who Is Shabit Ahtasham Songi</title>
+                <link rel="canonical" href="https://shabitahtashamsongi.com/about" />
+                <meta name="description" content="Shabit Ahtasham Songi is an Internet Entrepreneur and SEO Expert based in Bangladesh, And the Founder & CEO of Multiple Online Business." />
+                <meta name="keywords" content="who is Shabit Ahtasham Songi, Shabit Ahtasham Songi, Ahtasham Songi, Shabit Ahtasham, Songi" />
+            </Helmet>
             <Container className='mb-5 mt-5 pt-5 '>
                 <div
                     className='heading-title text-center mb-5'>
@@ -30,7 +38,7 @@ const About = () => {
                         </p>
 
                         <Button className='btn-golden mb-5'>
-                            <a href="/contact">Apply For A Consultation</a>
+                            <a href="/contact" className='text-decoration-none text-light'>Free SEO Consulting</a>
                         </Button>
 
                         <Row className='align-items-center'>
@@ -56,7 +64,7 @@ const About = () => {
                     </Col>
                     <Col md={6} sm={12} className='gallery-button'>
                         <Button className='btn-golden mb-5'>
-                            <a href="/contact">Apply For A Consultation</a>
+                            <a href="/contact" className='text-decoration-none text-light'>Free SEO Consulting</a>
                         </Button>
                     </Col>
                 </Row>

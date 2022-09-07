@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Col, Container, Row } from 'react-bootstrap';
-import bannerImage from '../../../Images/banner/sabit-banner.png';
+import bannerImage from '../../../Images/Shabit Ahtasham Songi.png';
 import Typical from "react-typical";
 import { NavLink } from 'react-router-dom';
 
@@ -30,7 +30,7 @@ const Banner = () => {
 
                         <Button className='btn-golden mb-5'>
                             <NavLink
-                                className="nav-link  text-light p-3 "
+                                className="nav-link  text-light p-1 text-decoration-none"
                                 to="/contact">
                                 Free SEO Consulting
                             </NavLink>
@@ -39,7 +39,7 @@ const Banner = () => {
                     </Col>
                     <Col md={6} sm={12}>
 
-                        <img src={bannerImage} alt="" />
+                        <img className='img-fluid ms-5 mt-5' src={bannerImage} alt="" />
                     </Col>
                 </Row>
 

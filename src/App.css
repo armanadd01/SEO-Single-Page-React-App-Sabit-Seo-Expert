@@ -337,7 +337,7 @@ Responsive code
     .about-page img {
         max-width: 75%;
         max-height: 75% !important;
-        padding: 0em 1em;
+        /* padding: 0em 1em; */
     }
 
     .phone .container {
@@ -376,6 +376,8 @@ Responsive code
     .main-services {
         margin-top: 2em;
     }
+
+
 }
 
 
@@ -415,6 +417,11 @@ Responsive code
 
     .gallery-section .slider-gallery {
         height: 12em;
+    }
+
+    .order-columns {
+        flex-direction: column-reverse;
+
     }
 
 }

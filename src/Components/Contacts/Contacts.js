@@ -4,6 +4,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import { useForm } from 'react-hook-form';
 import emailjs from '@emailjs/browser';
 import ContactImage from '../../Images/contact.png'
+import { Helmet } from 'react-helmet';
 
 const Contacts = () => {
     const { register, handleSubmit, reset } = useForm();
@@ -30,6 +31,13 @@ const Contacts = () => {
     };
     return (
         <>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Contact For SEO Consultancy & Services</title>
+                <link rel="canonical" href="https://shabitahtashamsongi.com/contact" />
+                <meta name="description" content="Submit your business information on hands of a professional, It's 100% secured." />
+                <meta name="keywords" content="Contact Shabit Ahtasham Songi, Shabit Ahtasham Songi, Ahtasham Songi, Shabit Ahtasham, Songi" />
+            </Helmet>
             <Container className=" mt-5 pt-5 mb-3 pb-3">
                 <Row className=" align-items-center mt-5 pt-5 mb-3 pb-3" >
                     <Col lg={6} md={12} className=" rounded shadow p-5 border-golden">

@@ -20,7 +20,7 @@ const SeoGuru = () => {
                     margin: '20px auto !important',
                 }} src={image} alt="Shabit Ahtasham Songi" /> */}
                     <Card.Body>
-                        <Card.Title > <h1> SEO GURU </h1> </Card.Title>
+                        <Card.Title > <h2> SEO GURU </h2> </Card.Title>
 
                         <Card.Title className='borders'>
                             <Typical
@@ -45,7 +45,7 @@ const SeoGuru = () => {
                         <Card.Text>
                             If you're looking for a Local SEO Agency to help you get your website listed on search engines, look no further than SEO GURU. SEO GURU is an online resource that provides tips and advice on improving your website's search engine visibility. You can also visit their blog to see how other businesses have fared concerning search engine optimization.
                         </Card.Text>
-                        <Button className='btn-golden mb-5'>Apply For A Consultation</Button>
+                        <Button className='btn-golden mb-5'>Visit website</Button>
 
                     </Card.Body>
                 </Card>
