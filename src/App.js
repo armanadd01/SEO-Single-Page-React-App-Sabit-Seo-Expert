@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from './Components/Shared/Header/Header';
 import PageNotFound from './Components/Shared/PageNotFound/PageNotFound';
 import Contacts from './Components/Contacts/Contacts';
+import Posts from './Components/Blogs/Posts/Posts';
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
           </Route>
           <Route path="/contact">
             <Contacts></Contacts>
+          </Route>
+          <Route path="/blog">
+            <Posts></Posts>
           </Route>
           <Route exact path="*">
             <PageNotFound></PageNotFound>
